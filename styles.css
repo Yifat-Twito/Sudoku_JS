@@ -1,0 +1,144 @@
+/* ----- Style background image ----- */
+body{
+    margin-top: 150px;
+    text-align: center;
+    background-image: url("backgroundHtmlPage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+* {box-sizing: border-box;}
+
+
+
+/* ---------------------------------------- First Page  ---------------------------------------- */
+
+/* ----- Style Sudoku Head-Line  ----- */
+.verify-head-line {
+  font-size: 100px;
+  color: dodgerblue;
+  font-style: inherit;
+}
+
+
+
+
+/* ----- Style input  ----- */
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-left: 378px;
+  margin-bottom: 15px;
+  opacity: 0.9;
+}
+
+/* ----- Style icons ----- */
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+  opacity: 0.9;
+}
+
+/* ----- Style input fields ----- */
+.input-field {
+  width: 40%;
+  padding: 10px;
+  outline: none;
+  opacity: 0.9;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* ----- style log-In button ----- */
+.log-In {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 21.8%;
+  opacity: 0.9;
+}
+
+
+.log-In:hover {
+  opacity: 1;
+}
+
+/* ----- style Guest button ----- */
+
+.Guest {
+    background-color: rgb(63, 66, 68);
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 21.8%;
+    opacity: 0.9;
+  }
+  
+  
+  .Guest :hover {
+    opacity: 1;
+  }
+
+
+  /* ---------------------------------------- second Page  ---------------------------------------- */
+
+/* ----- Style Welcome Head-Line  ----- */
+  .welcome-head-line{
+      font-size: 100px;
+      color: dodgerblue;
+      font-style: italic;
+  }
+
+
+/* ----- Style Levle-Difficulty Head-Line  ----- */
+
+  .levle-difficulty{
+    font-size: 55px;
+    color: rgb(11, 12, 12);
+    font-style: italic;
+    padding: 15px 20px;
+  }
+
+/* ----- Style Levle-Difficulty Button  ----- */
+
+  #easy {
+    background-color: #00cf00; 
+    border: 1px solid black; 
+    color: white; 
+    padding: 15px 20px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer; 
+    width: 21.8%;
+    opacity: 0.9;
+  }
+  #normal {
+    background-color: orange; 
+    border: 1px solid black;  
+    color: white; 
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer; 
+    width: 21.8%;
+    opacity: 0.9;
+  }
+
+  #hard {
+    background-color: red; 
+    border: 1px solid black;  
+    color: white; 
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer; 
+    width: 21.8%;
+    opacity: 0.9;
+  }
+
